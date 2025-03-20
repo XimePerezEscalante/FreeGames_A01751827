@@ -7,10 +7,10 @@ Exercises
 3. Respond to arrow keys instead of mouse clicks.
 4. Make the grid bigger.
 """
-
-from random import *
-from turtle import *
-
+from random import choice
+from turtle import hideturtle, up, goto, down, color
+from turtle import begin_fill, forward, left, end_fill, write
+from turtle import onscreenclick, done, update, setup, tracer
 from freegames import floor, vector
 
 tiles = {}
